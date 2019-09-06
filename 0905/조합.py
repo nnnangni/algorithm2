@@ -11,9 +11,9 @@ def combination(n,k,c,before):
                 combination(n+1,k,c,i)
                 used[i]=0
 
-arr = [1,2,3]
+arr = [1,2,3,4,5]
 k = len(arr)
-c = 2
+c = 3
 used = [0]*k
 result = [0]*c
 combination(0,k,c,0)
